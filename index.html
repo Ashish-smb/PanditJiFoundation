@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanditJiFoundation</title>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Font Awesome 6.6.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="px-6 lg:px-16 hidden lg:block">
+    <div class="flex justify-between items-center ">
+        <div class="flex items-center" >
+            <a href="#" class="block">
+                <img src="assets/imgs/logo.png" class="w-20"  alt="">
+            </a>
+            <ul class="flex uppercase text-sm font-bold ml-4">
+                <li>
+                    <a href="#" class="px-6 py-2 block hover:text-primary duration-300">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="px-6 py-2 block hover:text-primary duration-300">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="px-6 py-2 block hover:text-primary duration-300">Activites</a>
+                </li>
+                <li>
+                    <a href="#" class="px-6 py-2 block hover:text-primary duration-300">Our Work</a>
+                </li>
+                <li>
+                    <a href="#" class="px-6 py-2 block hover:text-primary duration-300">Gallery</a>
+                </li>
+                <li>
+                    <a href="#" class="px-6 py-2 block hover:text-primary duration-300">Contact us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <a href="#" class="bg-primary text-sm font-bold uppercase text-white px-10 py-4 rounded-full hover:bg-danger duration-500">
+                Donate Us
+            </a>
+        </div>
+    </div>
+</nav>   
+
+<!-- Mobile Navbar -->
+<nav class="block lg:hidden px-6 lg:px-16" x-data="{showSidebar : false}">
+    <!-- header -->
+     <div class="flex justify-between items-center px-8 w-full">
+        <a href="#" class="block">
+            <img src="assets/imgs/logo.png" alt="" class="w-20">
+        </a>
+        <button @click="showSidebar = !showSidebar" class="text-xl md:text-2xl" >
+            <i class="fas ":class="showSidebar ? 'fa-xmark' : 'fa-bars'" ></i>
+        </button>
+
+        <!-- nav -->
+         <div class="fixed top-0 px-6 bg-slate-300 text-slate-800 h-screen w-full md:1/2 z-10 duration-300"
+         :class="showSidebar ? 'left-0' : '-left-full'">
+            <button class="absolute right-4 top-4"
+            @click="showSidebar = false" >
+                <i class="fas fa-xmark text-2xl hover:text-danger duration-300"></i>
+            </button>
+            <a href="#" class="block">
+                <img src="assets/imgs/logo.png" alt="" class="w-20 mt-6" >
+            </a>
+
+            <ul class="capitalize font-semibold text-lg">
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >home</a>
+                </li>
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >About us</a>
+                </li>
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >activites</a>
+                </li>
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >our work</a>
+                </li>
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >gallery</a>
+                </li>
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >contact us</a>
+                </li>
+                <li>
+                    <a href="#" class="py-4 block hover:text-primary duration-300" >donate us</a>
+                </li>
+            </ul>
+         </div>
+     </div>
+</nav>
+
+<!-- banner -->
+<section class="mb-16" >
+    <img src="assets/imgs/1 (23).jpeg" class="w-full h-[500px]" alt="">
+</section>
+
+<!-- about us -->
+<section class="px-6 lg:px-16 mb-16">
+    <div class="grid lg:grid-cols-2">
+        <div>
+            <img src="assets/imgs/parshuram.jpg" alt="" class="w-full h-[400px] object-fill">
+        </div>
+        <div >
+            <span class="flex gap-2 font-bold text-primary mb-4" >
+                <img src="assets/imgs/fonts/om-symbol.png" class="w-5" alt="">
+                EDUCATION FOR ALL RURAL CHILDREN
+            </span>
+            <h1 class="text-5xl text-primary font-bold mb-4">
+                We Are a Hindu That Believe in Ram
+            </h1>
+
+            <div class="grid grid-cols-2 gap-4 mb-4">
+                
+                <div class="flex gap-4 items-center">
+                    <i class="fa-solid fa-check w-5 h-5 flex justify-center items-center p-5 border rounded-full text-primary text-xl bg-slate-300"></i>
+                    <span class="text-danger font-bold">
+                        Peace of Mind
+                    </span>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <i class="fa-solid fa-check w-5 h-5 flex justify-center items-center p-5 border rounded-full text-primary text-xl bg-slate-300"></i>
+                    <span class="text-danger font-bold">
+                        Peace of Mind
+                    </span>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <i class="fa-solid fa-check w-5 h-5 flex justify-center items-center p-5 border rounded-full text-primary text-xl bg-slate-300"></i>
+                    <span class="text-danger font-bold">
+                        Peace of Mind
+                    </span>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <i class="fa-solid fa-check w-5 h-5 flex justify-center items-center p-5 border rounded-full text-primary text-xl bg-slate-300"></i>
+                    <span class="text-danger font-bold">
+                        Peace of Mind
+                    </span>
+                </div>
+
+            </div>
+
+            <p class="text-gray-500 mb-4">
+                We are a Hindu that belives in Lord Rama and Vishnu Deva the followers and We are a Hindu that belives in Lord Rama and Vishnu Deva.
+            </p>
+
+            <a href="#" 
+            class="px-8 py-2 border-2 text-danger font-semibold inline-block rounded-full hover:bg-black hover:text-white duration-500 ">
+                Learn More
+                <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- our work -->
+<section class="px-6 lg:px-16 py-12 mb-16" style="background-image: url('assets/imgs/bg-img.jpg');">
+    <div class="flex font-bold text-danger items-center gap-1">
+        <img src="assets/imgs/fonts/om-symbol2.png" alt="" class="w-5" >
+        Services
+    </div>
+
+    <h1 class="font-bold text-5xl text-white">
+        How We Can Help
+    </h1>
+
+    <div class="grid grid-cols-3 gap-8">
+
+        <div class="p-6 text-white bg-primary rounded-lg mt-12 h-[300px] hover:-translate-y-1 duration-500" >
+            <img src="assets/imgs/fonts/om-symbol.png" alt="" class="mb-4" >
+            <h2 class="text-2xl font-semibold mb-4">
+                About Temple
+            </h2>
+            <p class="text-sm mb-4 text-slate-300">
+                Temple is place where hindu worship  consectetur adipisicing elit, sed do 
+            </p>
+            <div class="flex items-center gap-2 group text-sm">
+                <a href="#" class="block" >Learn More</a>
+                <i class="fa-solid fa-arrow-right group-hover:translate-x-1 duration-500"></i>
+
+            </div>
+        </div>
+
+        <div class="p-6 text-white bg-danger rounded-lg mt-6 h-[300px] hover:-translate-y-1 duration-500" >
+            <img src="assets/imgs/fonts/om-symbol.png" alt="" class="mb-4" >
+            <h2 class="text-2xl font-semibold mb-4">
+                About Temple
+            </h2>
+            <p class="text-sm mb-4 text-slate-300">
+                Temple is place where hindu worship  consectetur adipisicing elit, sed do 
+            </p>
+            <div class="flex items-center gap-2 group text-sm">
+                <a href="#" class="block" >Learn More</a>
+                <i class="fa-solid fa-arrow-right group-hover:translate-x-1 duration-500"></i>
+
+            </div>
+        </div>
+
+        <div class="p-6 text-black bg-white rounded-lg h-[300px] hover:-translate-y-1 duration-500" >
+            <img src="assets/imgs/fonts/om-symbol.png" alt="" class="mb-4" >
+            <h2 class="text-2xl font-semibold mb-4">
+                About Temple
+            </h2>
+            <p class="text-sm mb-4 text-slate-500">
+                Temple is place where hindu worship  consectetur adipisicing elit, sed do 
+            </p>
+            <div class="flex items-center gap-2 group text-sm">
+                <a href="#" class="block" >Learn More</a>
+                <i class="fa-solid fa-arrow-right group-hover:translate-x-1 duration-500"></i>
+
+            </div>
+        </div>
+        
+    </div>
+
+    <a href="#" class="font-bold uppercase text-white flex justify-end items-center gap-2 group">
+        get started now
+        <i class="fa-solid fa-arrow-right group-hover:translate-x-1 duration-300" ></i>
+    </a>
+</section>
+
+<!-- donation -->
+<section class="px-6 lg:px-16">
+    <span class="flex justify-center gap-2 uppercase font-bold text-primary mb-4" >
+        <img src="assets/imgs/fonts/om-symbol.png" class="w-5" alt="">
+            make a donation
+        <img src="assets/imgs/fonts/om-symbol.png" class="w-5" alt="">
+    </span>
+    
+    <h1 class="text-4xl font-bold text-danger text-center mb-6">
+        Donate Us To Help
+    </h1>
+
+    <div class="grid sm:grid-cols-3 gap-8">
+
+        <div class="border rounded-t group hover:-translate-y-1 duration-500">
+            <img src="assets/imgs/pic1.jpg" class="w-full rounded-t mb-4 group-hover:brightness-75 duration-500" alt="">
+            <div class="p-4" >
+                <h2 class="text-2xl text-danger font-bold mb-4">
+                    Samuhik Havan
+                </h2>
+                <p class="mb-4" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, itaque.
+                </p>
+                <a href="#" class="px-6 py-2 rounded-full bg-primary text-white inline-block">
+                    Donate
+                </a>
+            </div>
+        </div>
+
+        <div class="border rounded-t group hover:-translate-y-1 duration-500">
+            <img src="assets/imgs/pic2.jpg" class="w-full rounded-t mb-4 group-hover:brightness-75 duration-500" alt="">
+            <div class="p-4" >
+                <h2 class="text-2xl text-danger font-bold mb-4">
+                    Samuhik Vivah
+                </h2>
+                <p class="mb-4" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, itaque.
+                </p>
+                <a href="#" class="px-6 py-2 rounded-full bg-primary text-white inline-block">
+                    Donate
+                </a>
+            </div>
+        </div>
+
+        <div class="border rounded-t group hover:-translate-y-1 duration-500">
+            <img src="assets/imgs/pic3.jpg" class="w-full rounded-t mb-4 group-hover:brightness-75 duration-500" alt="">
+            <div class="p-4" >
+                <h2 class="text-2xl text-danger font-bold mb-4">
+                    Samuhik Karykram
+                </h2>
+                <p class="mb-4" >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, itaque.
+                </p>
+                <a href="#" class="px-6 py-2 rounded-full bg-primary text-white inline-block">
+                    Donate
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-white py-16 px-6 lg:px-14">
+    <div class="grid md:col-span-2 lg:grid-cols-4 gap-5">
+        <div>
+            <img src="assets/imgs/logo.png" alt="" class="h-[100px] mb-2" >
+            <p class="text-black">
+                Helping communities through education, health, and jobs at Manav Yog Manch.
+            </p>
+        </div>
+
+        <div class="text-black">
+            <h5 class="text-2xl font-semibold mb-4 text-black">Contact Us</h5>
+            <ul class="leading-8">
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    RZA-1/7, First Floor. Ploat No-15, Dwarkapuri, New Delhi 110019
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:9565162223">
+                        9565162223/7887270564
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:manavyogmanch@gmail.com">
+                        manavyogmanch@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-black">
+            <h5 class="text-2xl font-semibold text-black mb-4">Social Media</h5>
+            <ul>
+              <div class="flex gap-5 mb-4 ">
+              <a href="#">
+                  <i class="fa-brands fa-facebook-f p-4 w-px h-px flex justify-center items-center rounded-full border hover:bg-white text-red-600  duration-500"></i>
+              </a>
+              <a href="#">
+                  <i class="fa-brands fa-instagram p-4 w-px h-px flex justify-center items-center rounded-full border hover:bg-white text-red-600  duration-500"></i>
+              </a>
+              <a href="#">
+                  <i class="fa-brands fa-x-twitter p-4 w-px h-px flex justify-center items-center rounded-full border hover:bg-white text-red-600  duration-500"></i>
+              </a>
+              </div>
+              
+            </ul>
+        </div>
+
+        <div class="text-black leading-6">
+            <h5 class="text-2xl font-semibold text-black mb-4">Newsletter</h5>
+            <p class="mb-2" >Together, we can make a difference in the lives of children in need</p>
+            <form class="flex h-10">
+                    <input type="email" class="w-1/2 py-2 px-4 text-sm bg-primary outline-none border-2 border-white " placeholder="Your Email">
+                    <button class="py-2 px-4 bg-white inline-block duration-500 text-danger-dark font-bold">
+                        Contact Us
+                    </button>
+
+            </form>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Bottom -->
+<div class="border-t border-gray-400 bg-danger-dark py-5 px-6 lg:px-14">
+    <div class="lg:grid grid-cols-2 text-white">
+        <div>
+            <p class="text-base font-semibold">
+                Copyright &copy; 2024 - 2025! All Rights Reserved.
+            </p>
+        </div>
+        <div class="text-base lg:text-end font-semibold">
+            Made with <i class="fas fa-heart text-red-500"></i> by <a href="https://spreadmycareer.in/">SpreadMyBusiness</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Alpine -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.14.1/cdn.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Custom JS -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+<!-- https://metropolitanhost.com/themes/themeforest/html/maharatri/ -->
