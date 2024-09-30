@@ -14,9 +14,49 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+    
+<!-- Header -->
+<header class="hidden lg:block px-6 lg:px-16 bg-orange-600 py-3 z-50">
+    <div class="flex justify-between">
+
+        <div class="flex items-center gap-4 text-white ">
+            <div class="flex items-center gap-2" >
+                <i class="fa-solid fa-envelope"></i>
+                <div class="text-sm">
+                    example@gmail.com
+                </div>
+            </div>
+    
+            <div class="border-l px-4 flex items-center gap-2 border-slate-300">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="text-sm">
+                    DDA Flat 136 H Tower Gevra Delhi 110081
+                </div>
+            </div>
+            
+    
+        </div>
+
+        <div class="text-white flex gap-4">
+            Follow Us On: 
+            <a href="#">
+                <i class="fa-brands fa-facebook-f 
+                    border w-8 h-8 flex justify-center items-center text-sm hover:bg-white hover:text-orange-500 duration-500 p-2 rounded-full "></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube 
+                    border w-8 h-8 flex justify-center items-center text-sm hover:bg-white hover:text-orange-500 duration-500 p-2 rounded-full "></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp 
+                    border w-8 h-8 flex justify-center items-center text-sm hover:bg-white hover:text-orange-500 duration-500 p-2 rounded-full "></i>
+            </a>
+        </div>
+    </div>
+</header>
 
 <!-- navbar -->
-<nav class="px-6 lg:px-16 hidden lg:block">
+<nav class="px-6 lg:px-16 hidden lg:block sticky top-0 left-0 bg-white shadow">
     <div class="flex justify-between items-center ">
         <div class="flex items-center" >
             <a href="#" class="block">
@@ -24,22 +64,22 @@
             </a>
             <ul class="flex uppercase text-sm font-bold ml-4">
                 <li>
-                    <a href="#" class="px-6 py-2 block hover:text-orange-500 duration-300">Home</a>
+                    <a href="#" class="px-4 py-2 block hover:text-orange-500 duration-300">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="px-6 py-2 block hover:text-orange-500 duration-300">About Us</a>
+                    <a href="#" class="px-4 py-2 block hover:text-orange-500 duration-300">About Us</a>
                 </li>
                 <li>
-                    <a href="#" class="px-6 py-2 block hover:text-orange-500 duration-300">Activites</a>
+                    <a href="#" class="px-4 py-2 block hover:text-orange-500 duration-300">Activites</a>
                 </li>
                 <li>
-                    <a href="#" class="px-6 py-2 block hover:text-orange-500 duration-300">Our Work</a>
+                    <a href="#" class="px-4 py-2 block hover:text-orange-500 duration-300">Our Work</a>
                 </li>
                 <li>
-                    <a href="#" class="px-6 py-2 block hover:text-orange-500 duration-300">Gallery</a>
+                    <a href="#" class="px-4 py-2 block hover:text-orange-500 duration-300">Gallery</a>
                 </li>
                 <li>
-                    <a href="#" class="px-6 py-2 block hover:text-orange-500 duration-300">Contact us</a>
+                    <a href="#" class="px-4 py-2 block hover:text-orange-500 duration-300">Contact us</a>
                 </li>
             </ul>
         </div>
@@ -115,18 +155,19 @@
 </nav>
 
 <!-- banner -->
-<section class="mb-16"  >
+<section class="mb-24">
 <img src="assets/imgs/banner.jpg" alt="" class="w-full" >
 </section>
 
 <!-- About Us -->
-<section class="px-6 lg:px-16" >
+<section class="px-6 lg:px-16 mb-24" >
     <div class="grid grid-cols-2">
         <div>
             <img src="assets/imgs/pic1.jpg" alt="" class="w-full h-full" >
         </div>
-        <div class="p-4">
-            <span class="text-sm text-orange-500" > About Us </span>
+
+        <div class="px-6 py-2">
+            <span class="text-orange-500" > About Us </span>
             <h1 class="text-5xl font-bold mb-6">
                 Helping To Make Our World Better Living
             </h1>
@@ -134,23 +175,81 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione illo ducimus. Officiis, natus eius ea nobis similique est, recusandae architecto voluptates cum, voluptatem voluptatum illum voluptatibus inventore. Voluptatem, corrupti.
             </p>
             <div class="flex justify-around">
-                <div class="text-center">
-                    <i class="fa-solid fa-phone text-white w-14 h-14 text-3xl flex justify-center items-center p-8 bg-orange-500 rounded-full mx-auto mb-4"></i>                    
-                    <span class="font-bold" >Our Team Member</span>
+                <div>
+                    <div class="p-3 mx-auto border border-danger rounded-full w-20 h-20 flex items-center justify-center group">
+                        <img src="assets/imgs/fonts/font1.png" alt="" class="object-fill rounded-full mx-auto group-hover:scale-90 duration-300">                
+                    </div>
+                    <span class="font-bold text-red-500">Our Team Member</span>
                 </div>
-                <div class="text-center">
-                    <i class="fa-solid fa-phone text-white w-14 h-14 text-3xl flex justify-center items-center p-8 bg-orange-500 rounded-full mx-auto mb-4"></i>                    
-                    <span class="font-bold" >Total Donated</span>
+                <div>
+                    <div class="p-3 mx-auto border border-yellow-500 rounded-full w-20 h-20 flex items-center justify-center group">
+                        <img src="assets/imgs/fonts/font2.png" alt="" class="object-fill rounded-full mx-auto group-hover:scale-90 duration-300">                
+                    </div>
+                    <span class="font-bold text-yellow-500">Help By Donations</span>
                 </div>
-                <div class="text-center">
-                    <i class="fa-solid fa-phone text-white w-14 h-14 text-3xl flex justify-center items-center p-8 bg-orange-500 rounded-full mx-auto mb-4"></i>                    
-                    <span class="font-bold" >Total Fund Raised</span>
+                <div>
+                    <div class="p-3 mx-auto border border-green-600 rounded-full w-20 h-20 flex items-center justify-center group">
+                        <img src="assets/imgs/fonts/font3.png" alt="" class="object-fill rounded-full mx-auto group-hover:scale-90 duration-300" >                
+                    </div>
+                    <span class="font-bold text-green-600">Help Others</span>
                 </div>
+                
                 
             </div>
         </div>
     </div>
 </section>
+
+<!-- join  -->
+<section class="px-6 lg:px-16 mb-24">
+    <div class="grid grid-cols-3 gap-8">
+
+        <div class="border rounded-lg border-danger bg-red-100 p-10 flex items-center gap-6 hover:-translate-y-2 duration-500 group">
+            <img src="assets/imgs/fonts/font1.png" alt="" class="w-20 h-20 shrink-0 mx-auto group-hover:scale-95 duration-500">
+            <div>
+                <h2 class="text-lg font-bold" >
+                    Volunteer
+                </h2>
+                <p class="text-gray-500" >
+                    Lorem ipsum dolor sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
+                </p>
+            </div>
+        </div>
+
+        <div class="border rounded-lg border-yellow-500 bg-orange-100 p-10 flex items-center gap-6 hover:-translate-y-2 duration-500 group">
+            <img src="assets/imgs/fonts/font2.png" alt="" class="w-20 h-20 shrink-0 mx-auto group-hover:scale-95 duration-500">
+            <div>
+                <h2 class="text-lg font-bold" >
+                    Volunteer
+                </h2>
+                <p class="text-gray-500" >
+                    Lorem ipsum dolor sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
+                </p>
+            </div>
+        </div>
+
+        <div class="border rounded-lg border-green-500 bg-green-200 p-10 flex items-center gap-6 hover:-translate-y-2 duration-500 group">
+            <img src="assets/imgs/fonts/font3.png" alt="" class="w-20 h-20 shrink-0 mx-auto group-hover:scale-95 duration-500">
+            <div>
+                <h2 class="text-lg font-bold" >
+                    Donate
+                </h2>
+                <p class="text-gray-500" >
+                    Lorem ipsum dolor sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- bg image -->
+<section class="bg-fixed py-52" style="background-image: url('assets/imgs/1\ \(23\).jpeg');" >
+
+</section>
+
 
 <!-- footer -->
 <footer class="bg-white py-16 px-6 lg:px-14">
