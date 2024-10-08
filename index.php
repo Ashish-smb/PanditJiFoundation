@@ -18,7 +18,7 @@
                 <div class="rounded-full bg-white inline-block">
                     <a href="#"
                         class="text-sm font-bold uppercase text-black duration-500 flex px-6 py-2 rounded-full  items-center group bg-white">
-                        सामर्थ्यदान
+                        Donate
                         <i
                             class="fa-solid fa-arrow-right ml-4 w-5 h-5 flex justify-center items-center p-5 rounded-full text-white bg-orange-500 group-hover:translate-x-1 duration-500"></i>
                     </a>
@@ -68,7 +68,7 @@
                             <img src="assets/imgs/fonts/font2.png" alt=""
                                 class="object-fill rounded-full mx-auto group-hover:scale-90 duration-300">
                         </div>
-                        <span class="font-bold text-yellow-500">सामर्थ्यदान</span>
+                        <span class="font-bold text-yellow-500">Donate</span>
                     </div>
                     <div >
                         <div
@@ -109,7 +109,7 @@
                     class="w-20 h-20 shrink-0 mx-auto group-hover:scale-95 duration-500">
                 <div>
                     <h2 class="text-lg font-bold">
-                        सामर्थ्यदान
+                        Donate
                     </h2>
                     <p class="text-gray-500">
                         आपके द्वारा दी जाने वाली राशि से छोटे तबके के लोगो की मदत की जा सकती है
@@ -201,7 +201,7 @@
                 class="inline-block rounded-full bg-white hover:bg-transparent duration-500 border border-white mb-4 lg:mb-0">
                 <a href="#"
                     class="text-sm font-bold uppercase text-black hover:text-white duration-500 flex px-6 py-2 rounded-full items-center group">
-                    सामर्थ्यदान
+                    Donate
                     <i
                         class="fa-solid fa-arrow-right ml-4 w-5 h-5 flex justify-center items-center p-5 rounded-full text-white bg-orange-500 group-hover:translate-x-1 duration-500"></i>
                 </a>

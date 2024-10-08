@@ -67,13 +67,13 @@
 </header>
 
 <!-- navbar -->
-<nav class="px-6 lg:px-16 hidden lg:block sticky top-0 left-0 bg-white shadow-md z-10">
+<nav class="px-6 lg:px-16 hidden lg:block sticky top-0 left-0 bg-white shadow-md z-50">
     <div class="flex justify-between items-center ">
         <div class="flex items-center">
             <a href="index.php" class="block">
                 <img src="assets/imgs/logo.png" class="w-20" alt="">
             </a>
-            <ul class="flex uppercase text-sm font-bold ml-4">
+            <ul class="flex uppercase text-sm font-bold ml-4 gap-2">
                 <li>
                     <a href="index.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Home</a>
                 </li>
@@ -82,10 +82,19 @@
                 </li>
                 
                 <li>
-                    <a href="our-work.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Our Work</a>
+                    <a href="activity.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Activity</a>
+                </li>
+                <li>
+                    <a href="service.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Services</a>
                 </li>
                 <li>
                     <a href="gallery.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Gallery</a>
+                </li>
+                <li>
+                    <a href="products.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Products</a>
+                </li>
+                <li>
+                    <a href="medicine.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Medicine</a>
                 </li>
                 <li>
                     <a href="contact-us.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Contact us</a>
@@ -96,22 +105,11 @@
             </ul>
         </div>
 
-        <div class="flex items-center gap-2">
-            <i
-                class="fa-solid fa-phone text-white w-5 h-5 flex justify-center items-center p-5 bg-orange-500 hover:bg-orange-300 rounded-full"></i>
-            <div class="leading-5 ">
-                <span class="text-sm text-slate-500">
-                    संपर्क करे |
-                </span>
-                <a href="tel:9868105060" class="block font-bold ">
-                    (+91) 9868 105060
-                </a>
-            </div>
-        </div>
+        
         <div>
             <a href="donate.php"
                 class="text-sm font-bold uppercase text-black duration-500 border flex px-6 py-2 rounded-full  items-center border-orange-500 group">
-                सामर्थ्यदान
+                Donate
                 <i
                     class="fa-solid fa-arrow-right ml-4 w-5 h-5 flex justify-center items-center p-5 rounded-full text-white bg-orange-500 group-hover:translate-x-1 duration-500"></i>
             </a>
@@ -132,7 +130,7 @@
         
 
         <!-- nav -->
-        <div class="fixed top-0 px-6 bg-slate-300 text-slate-800 h-screen w-full md:1/2 z-10 duration-300"
+        <div class="fixed top-0 px-6 bg-slate-300 text-slate-800 h-screen w-full md:1/2 z-10 duration-300 overflow-y-auto"
             :class="showSidebar ? 'left-0' : '-left-full'">
             <button class="absolute right-4 top-4" @click="showSidebar = false">
                 <i class="fas fa-xmark text-2xl hover:text-danger duration-300"></i>
@@ -149,10 +147,19 @@
                     <a href="about-us.php" class="block hover:text-orange-600 duration-300">About us</a>
                 </li>
                 <li>
-                    <a href="our-work.php" class="block hover:text-orange-600 duration-300">our work</a>
+                    <a href="activity.php" class="block hover:text-orange-600 duration-300">Activity</a>
                 </li>
                 <li>
-                    <a href="gallery.php" class="block hover:text-orange-600 duration-300">gallery</a>
+                    <a href="service.php" class="block hover:text-orange-600 duration-300">Service</a>
+                </li>
+                <li>
+                    <a href="gallery.php" class="block hover:text-orange-600 duration-300">Gallery</a>
+                </li>
+                <li>
+                    <a href="products.php" class="block hover:text-orange-600 duration-300">Products</a>
+                </li>
+                <li>
+                    <a href="medicine.php" class="block hover:text-orange-600 duration-300">Medicine</a>
                 </li>
                 <li>
                     <a href="contact-us.php" class="block hover:text-orange-600 duration-300">contact us</a>

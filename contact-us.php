@@ -66,15 +66,15 @@ include_once('banner.php');
 </div>
 
 <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 my-10">
-    <div class="col-span-1 ">
-        <div class="bg-gray-100  justify-center text-center py-8 rounded-3xl border-dashed border-2 border-purple-300">
+    <div>
+        <div class="bg-gray-100  justify-center text-center px-4 py-6 rounded-3xl border-dashed border-2 border-purple-300">
             <i class="fa-solid fa-phone bg-orange-600 w-14 h-14 flex justify-center items-center mx-auto px-4 py-4 text-2xl text-white rounded-full"></i>
             <p class="text-amber-950 font-bold text-lg py-5 ">फ़ोन नंबर |</p>
             <a href="tel:9868105060" class="text-gray-800">(+91)9868105060</a>
         </div>
     </div>
-    <div class="col-span-1">
-        <div class="bg-gray-200  justify-center text-center py-8 rounded-3xl border-dashed border-2 border-purple-300">
+    <div>
+        <div class="bg-gray-200  justify-center text-center px-4 py-6 rounded-3xl border-dashed border-2 border-purple-300">
             <i class="fa-solid fa-envelope bg-orange-600 w-14 h-14 flex justify-center items-center mx-auto text-white px-4 py-4 text-2xl  rounded-full"></i>
             <p class="text-amber-950 font-bold text-lg py-5">E-mail Address</p>
             <a href="mailto:tirathprakash308@gmail.com" class="text-gray-800">
@@ -82,17 +82,17 @@ include_once('banner.php');
             </a>
         </div>
     </div>
-    <div class="col-span-1">
-        <div class="bg-gray-300  justify-center text-center py-8 rounded-3xl border-dashed border-2 border-purple-300">
+    <div>
+        <div class="bg-gray-300  justify-center text-center px-4 py-6 rounded-3xl border-dashed border-2 border-purple-300">
             <i class="fa-regular fa-clock bg-orange-600 w-14 h-14 flex justify-center items-center mx-auto px-4 py-4 text-2xl text-white rounded-full"></i>
             <p class="text-amber-950 font-bold text-lg py-5 ">कार्य समय |</p>
             <span class="text-gray-800">8AM – 6PM On Weekday</span>
         </div>
     </div>
-    <div class="col-span-1">
-        <div class="bg-gray-400/80  justify-center text-center py-8 rounded-3xl border-dashed border-2 border-purple-300">
+    <div>
+        <div class="bg-gray-400/80  justify-center text-center px-4 py-3 rounded-3xl border-dashed border-2 border-purple-300">
             <i class="fa-solid fa-location-dot bg-orange-600 w-14 h-14 flex justify-center items-center mx-auto px-4 py-4 text-2xl text-white rounded-full"></i>
-            <p class="text-amber-950 font-bold text-lg py-2 ">संपर्क केंद्र |</p>
+            <p class="text-amber-950 font-bold text-lg py-5 ">संपर्क केंद्र |</p>
             <span class="text-gray-800"> डीडीए फ्लैट 136 ह टावर गेवरा दिल्ली 110081</span>
         </div>
     </div>

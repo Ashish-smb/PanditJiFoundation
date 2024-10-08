@@ -18,7 +18,7 @@ include_once('banner.php');
 
         <div class="p-6">
             <form action="#">
-                <div class="grid lg:grid-cols-2 gap-4">
+                <!-- <div class="grid lg:grid-cols-2 gap-4">
                     <div class="mb-3">
                         <label for="username" class="text-sm text-gray-600">Your Name</label>
                         <input type="text" placeholder="Name" name="username" id="username" class="border border-slate-400 py-2 px-3 block w-full outline-none">
@@ -49,11 +49,31 @@ include_once('banner.php');
                         <label for="address_line_2" class="text-sm text-gray-600">Address Line 2</label>
                         <input type="text" placeholder="Address Line 2" name="address_line_2" id="address_line_2" class="border border-slate-400 py-2 px-3 block w-full outline-none">
                     </div>
+                </div> -->
+                
+                <div class="grid grid-cols-2">
+                    <div></div>   
+                    <div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Enter Your Name" name="name" id="name" class="border-slate-400 outline-none px-3 py-2 border w-full" >
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Enter Your Phone Number" name="number" id="number" class="border-slate-400 outline-none px-3 py-2 border w-full" >
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Enter Your Email Address" name="email" id="email" class="border-slate-400 outline-none px-3 py-2 border w-full" >
+                        </div>
+                        
+                        <textarea
+                        name="description"
+                        id="description"
+                        class="block w-full h-[200px] border border-slate-400 outline-none py-2 px-3"
+                        placeholder="Enter Your Description"
+                    ></textarea>
+                    </div>
                 </div>
-                
-                
 
-                <div class="mb-4">
+                <!-- <div class="mb-4">
                     <label for="area" class="text-gray-600" >Area</label>
                     <textarea 
                         name="area"
@@ -116,7 +136,7 @@ include_once('banner.php');
                     <small class="text-sm text-gray-500">
                         Enter your description, like - Work Profile, Hobbies, etc.
                     </small>
-                </div>
+                </div> -->
                 
                 <button class="bg-danger-light btn btn-md text-white font-semibold" >
                     Submit
