@@ -64,84 +64,18 @@
         </div>
     </div>
 
-    <div class="inline-block" >
-        <a href="#"
-            class="text-sm font-bold uppercase text-black duration-500 border flex px-6 py-2 rounded-full  items-center border-orange-500 group">
-            सामर्थ्यदान
-            <i
-                class="fa-solid fa-arrow-right ml-4 w-5 h-5 flex justify-center items-center p-5 rounded-full text-white bg-orange-500 group-hover:translate-x-1 duration-500"></i>
-        </a>
-    </div>
-</section>
-
-<!-- Donation -->
-<section class="px-6 lg:px-16 mb-8">
-    <div class="grid md:grid-cols-2 lg:grid-cols-2">
-        <div class="mb-4 ">
-            <h2 class="text-2xl">
-                अपना योगदान दें |
-            </h2>
-            
-            <?php 
-                $cards = [
-                    [
-                        'id' => 1,
-                        'font' => 'assets/imgs/fonts/font4.jpg',
-                        'title' => 'स्वस्थ भोजन |',
-                        'content' => 'यह सुनिश्चित करना कि हर किसी के पास खाने के लिए पर्याप्त है |',
-                    ],
-                    [
-                        'id' => 2,
-                        'font' => 'assets/imgs/fonts/font5.jpg',
-                        'title' => 'शिक्षा |',
-                        'content' => 'गरीब बच्चों के लिए स्वास्थ्य और शिक्षा का महत्व |',
-                    ],
-                    [
-                        'id' => 3,
-                        'font' => 'assets/imgs/fonts/font6.png',
-                        'title' => 'जलापूर्ति |',
-                        'content' => 'स्वच्छ जल और बाल स्वास्थ्य के बीच संबंध |',
-                    ],
-                    [
-                        'id' => 4,
-                        'font' => 'assets/imgs/fonts/font7.png',
-                        'title' => 'चिकित्सा |',
-                        'content' => 'वंचित युवाओं के लिए स्वास्थ्य देखभाल पहुंच|',
-                    ],
-                    [
-                        'id' => 5,
-                        'font' => 'assets/imgs/fonts/font8.png',
-                        'title' => 'पर्यावरण |',
-                        'content' => 'अभी कार्य करें: बड़े प्रभाव के लिए छोटे परिवर्तन|',
-                    ],
-                    [
-                        'id' => 6,
-                        'font' => 'assets/imgs/fonts/font9.png',
-                        'title' => 'आपदा राहत |',
-                        'content' => 'एक साथ पुनर्निर्माण: एक आपदा के बाद का जीवन |',
-                    ],
-                ]
-            ?>
-            <div class="grid sm:grid-cols-2  gap-6 py-6">
-
-                <?php foreach($cards as $card) : ?>
-                    <div class="text-center group border-2 border-danger-light  p-2 border-dashed" >
-                        <img src="<?= $card['font']; ?>" class="w-1/3 mx-auto group-hover:-translate-y-1 duration-500" alt="">
-                        <h2 class="text-2xl font-bold mb-3" ><?= $card['title'] ?></h2>
-                        <p class="text-gray-600">
-                            <?= $card['content'] ?>
-                        </p>
-                    </div>
-                <?php endforeach; ?>
-            
-            </div>
-        </div>
-        <div>
-            <img src="assets/imgs/qr_old.jpeg" alt="" class="mx-auto w-2/3">
-        </div>
-
+    <section class="px-6 lg:px-16">
+    <div class="text-center mb-6">
+        <h2 class="text-4xl font-semibold" >
+            Donate Us Form
+        </h2>
+        <span class="text-slate-500" >Pandit Ji Foundation</span>
     </div>
 
+    <div class="h-[600px] bg-no-repeat border"  style="background-image:url('assets/imgs/register.png');" ></div>
+    </section>
 </section>
+
+
 
 <?php include_once('inc/footer.php'); ?>

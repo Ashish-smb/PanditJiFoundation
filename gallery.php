@@ -4,4 +4,6 @@ $subtitle = 'Gallery';
 include_once('banner.php');
 ?>
 
+
+
 <?php include_once('inc/footer.php'); ?>
