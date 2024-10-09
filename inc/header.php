@@ -73,28 +73,18 @@
             <a href="index.php" class="block">
                 <img src="assets/imgs/logo.png" class="w-20" alt="">
             </a>
-            <ul class="flex uppercase text-sm font-bold ml-4 gap-2">
+            <ul class="flex uppercase text-sm font-bold ml-4 ">
                 <li>
                     <a href="index.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Home</a>
                 </li>
                 <li>
                     <a href="about-us.php" class="px-4 py-2 block hover:text-orange-500 duration-300">About Us</a>
                 </li>
-                
                 <li>
-                    <a href="activity.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Activity</a>
-                </li>
-                <li>
-                    <a href="service.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Services</a>
+                    <a href="our-work.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Our Work</a>
                 </li>
                 <li>
                     <a href="gallery.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Gallery</a>
-                </li>
-                <li>
-                    <a href="products.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Products</a>
-                </li>
-                <li>
-                    <a href="medicine.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Medicine</a>
                 </li>
                 <li>
                     <a href="contact-us.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Contact us</a>
@@ -147,27 +137,15 @@
                     <a href="about-us.php" class="block hover:text-orange-600 duration-300">About us</a>
                 </li>
                 <li>
-                    <a href="activity.php" class="block hover:text-orange-600 duration-300">Activity</a>
-                </li>
-                <li>
-                    <a href="service.php" class="block hover:text-orange-600 duration-300">Service</a>
+                    <a href="our-work.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Our Work</a>
                 </li>
                 <li>
                     <a href="gallery.php" class="block hover:text-orange-600 duration-300">Gallery</a>
                 </li>
                 <li>
-                    <a href="products.php" class="block hover:text-orange-600 duration-300">Products</a>
-                </li>
-                <li>
-                    <a href="medicine.php" class="block hover:text-orange-600 duration-300">Medicine</a>
-                </li>
-                <li>
                     <a href="contact-us.php" class="block hover:text-orange-600 duration-300">contact us</a>
                 </li>
-                <li>
-                    <a href="donate.php" class="block hover:text-orange-600 duration-300">donate us</a>
-                </li>
-                <li>
+                
                     <a href="join-us.php" class="block hover:text-orange-600 duration-300">join us</a>
                 </li>
             </ul>
