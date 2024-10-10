@@ -64,17 +64,75 @@
         </div>
     </div>
 
-    <section class="px-6 lg:px-16">
-    <div class="text-center mb-6">
-        <h2 class="text-4xl font-semibold" >
-            Donate Us Form
-        </h2>
-        <span class="text-slate-500" >Pandit Ji Foundation</span>
-    </div>
-
-    <div class="h-[600px] bg-no-repeat border"  style="background-image:url('assets/imgs/register.png');" ></div>
-    </section>
 </section>
+    
+    
+
+<section class="px-6 lg:px-24 mb-6">
+    <div class="text-center mb-6">
+        <div class="flex justify-center lg:justify-between">
+            <img src="assets/imgs/axe.jpeg" alt="" class="w-28" >
+            <div>
+                <h2 class="text-4xl font-semibold" >
+                    फरसे के लिया पंजीकरण कीजिए।  
+                </h2>
+                <a href="tel:9868105060" class="text-lg block" >
+                    Contact: <span class="text-gray-700">+91 9868105060</span>
+                </a>
+                <a href="mailto:tirathprakash308@gmail.com" class="text-lg block" >Email:
+                    <span class="text-gray-700"> tirathprakash308@gmail.com</span>
+                </a>
+                <span class="text-gray-500 block" >Pandit Ji Foundation</span>
+
+            </div>
+            <img src="assets/imgs/founder.jpeg" alt=""  class="w-32">
+        </div>
+    </div>
+    <form action="#">
+        <div class="grid lg:grid-cols-2 gap-4">
+            <div class="mb-2">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" placeholder="Enter Your First Name" class="border outline-none block w-full p-2 border-slate-400 " required autofocus>
+            </div>
+
+            <div class="mb-2">
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" placeholder="Enter Your Last Name" class="border outline-none block w-full p-2 border-slate-400 " required>
+            </div>
+
+            <div class="mb-2">
+                <label for="number">Phone Number</label>
+                <input type="text" name="number" id="number" placeholder="00000 00000" class="border outline-none block w-full p-2 border-slate-400 " required>
+            </div>
+
+            <div class="mb-2">
+                <label for="dob">Date Of Birth</label>
+                <input type="date" name="dob" id="dob"  class="border outline-none block w-full p-2 border-slate-400 " required>
+            </div>
+
+            <div class="mb-2">
+                <label for="payment">Payment Picture</label>
+                <input type="file" name="payment" id="payment"  class="border outline-none block w-full p-2 border-slate-400 " required>
+            </div>
+
+            <div class="mb-2">
+                <img src="assets/imgs/qr_code.jpg" alt="" class="mx-auto mb-2 h-[200px]" >
+                <div class="text-center text-lg font-bold" >Farse Fee : 700/- </div>
+            </div>
+
+        </div>
+
+        <button type="submit"
+        class="block border bg-orange-500 text-white px-6 py-2 hover:bg-orange-700 duration-500" >
+            Submit
+        </button>
+        
+        
+    </form>
+    
+</section>
+
+
 
 
 

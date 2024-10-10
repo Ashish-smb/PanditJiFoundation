@@ -1,28 +1,35 @@
 <?php include_once('inc/header.php');?>
-
     <!-- banner for Dekstop-->
     <section class="mb-24 hidden lg:block">
         <div class="relative">
-            <img src="assets/imgs/demo-banner.jpg" alt="" class="w-full ">
-            <div class="w-1/3 absolute top-5 lg:top-20 left-5 lg:left-10  ">
+            <img src="assets/imgs/banner.jpg" alt="" class="w-full ">
+            <div class="w-1/3 absolute top-5 lg:top-20 left-5 lg:left-10 wow animate_animated animate__bounce">
                 <h1 class="text-lg lg:text-5xl font-bold text-white mb-2 lg:mb-8">
                     चलो हम बदलाव लाये!
                 </h1>
 
-                <p class="mb-8 text-slate-300 ">
+                <p class="my-8 text-slate-300 leading-7">
                     लोगों को सशक्त बनाना और उनकी मदद करना। हम शिक्षा, स्वास्थ्य और रोजगार के अवसर बढ़ाने का काम करते
                     हैं। हमारी कोशिश है कि हर समुदाय में सकारात्मक बदलाव आए | हमारा सपना है एक ऐसा समाज बनाना जहाँ हर
                     किसी को सही मौका मिले। हम बदलाव के लिए मिलकर काम करना चाहिए |
                 </p>
 
                 <div class="rounded-full bg-white inline-block">
-                    <a href="#"
+                    <a href="donate.php"
                         class="text-sm font-bold uppercase text-black duration-500 flex px-6 py-2 rounded-full  items-center group bg-white">
                         Donate
                         <i
                             class="fa-solid fa-arrow-right ml-4 w-5 h-5 flex justify-center items-center p-5 rounded-full text-white bg-orange-500 group-hover:translate-x-1 duration-500"></i>
                     </a>
 
+                </div>
+                <div class="inline-block rounded-full  ml-4 border border-white">
+                    <a href="join-us.php"
+                        class="text-sm font-bold uppercase text-white duration-500 flex px-6 py-2 rounded-full  items-center group">
+                        जल्द जुड़े
+                        <i
+                            class="fa-solid fa-arrow-right ml-4 w-5 h-5 flex justify-center items-center p-5 rounded-full text-white bg-red-900 group-hover:translate-x-1 duration-500"></i>
+                    </a>
                 </div>
 
             </div>
@@ -199,7 +206,7 @@
 
             <div
                 class="inline-block rounded-full bg-white hover:bg-transparent duration-500 border border-white mb-4 lg:mb-0">
-                <a href="#"
+                <a href="donate.php"
                     class="text-sm font-bold uppercase text-black hover:text-white duration-500 flex px-6 py-2 rounded-full items-center group">
                     Donate
                     <i
@@ -207,7 +214,7 @@
                 </a>
             </div>
             <div class="inline-block rounded-full  ml-4 border border-white">
-                <a href="#"
+                <a href="join-us.php"
                     class="text-sm font-bold uppercase text-white duration-500 flex px-6 py-2 rounded-full  items-center group">
                     जल्द जुड़े
                     <i

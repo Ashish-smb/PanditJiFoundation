@@ -7,14 +7,18 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- Font Awesome 6.6.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     
     <!-- Animate.css -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    
+    <!-- costom css -->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -87,6 +91,9 @@
                     <a href="gallery.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Gallery</a>
                 </li>
                 <li>
+                    <a href="shaadhi.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Shaadhi</a>
+                </li>
+                <li>
                     <a href="contact-us.php" class="px-4 py-2 block hover:text-orange-500 duration-300">Contact us</a>
                 </li>
                 <li>
@@ -141,6 +148,12 @@
                 </li>
                 <li>
                     <a href="gallery.php" class="block hover:text-orange-600 duration-300">Gallery</a>
+                </li>
+                <li>
+                    <a href="shaadhi.php" class="block hover:text-orange-600 duration-300">Shaadhi</a>
+                </li>
+                <li>
+                    <a href="donate.php" class="block hover:text-orange-600 duration-300">Donate Us</a>
                 </li>
                 <li>
                     <a href="contact-us.php" class="block hover:text-orange-600 duration-300">contact us</a>

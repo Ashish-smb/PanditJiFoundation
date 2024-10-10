@@ -17,9 +17,9 @@ include_once('banner.php');
         </div>
 
         <div class="p-6">
-            <div class="grid grid-cols-2">
-                <div >
-                    <img src="assets/imgs/join_us.jpeg" alt="" class="mx-auto">
+            <div class="grid lg:grid-cols-2">
+                <div>
+                    <img src="assets/imgs/donate.jpeg" alt="" class="mx-auto h-[600px] mb-4 lg:mb-0">
 
                 </div>
                    
@@ -41,7 +41,7 @@ include_once('banner.php');
                         class="block w-full h-[200px] border border-slate-400 outline-none py-2 px-3 mb-3"
                         placeholder="Enter Your Description"
                         ></textarea>
-                        <button class="bg-danger-light btn btn-md text-white font-semibold" >
+                        <button class="bg-red-600 hover:bg-red-700 btn btn-md text-white font-semibold" >
                             Submit
                         </button>
                     </form>
@@ -51,4 +51,5 @@ include_once('banner.php');
 
     </div>
 </section>
+
 <?php include_once('inc/footer.php'); ?>
